@@ -1,0 +1,25 @@
+#include<stdio.h>
+main(){
+char light;
+printf("enter the traffic light");
+scanf("%c",&light);
+
+//cases
+switch(light)
+{
+case 'red':
+  printf("hault");
+  break;
+  
+case 'yellow':
+  printf("slowdown");
+  break;
+  
+case 'green':
+  printf("go");
+  break;
+  
+  default:
+    printf("invalid input");
+    }
+}
